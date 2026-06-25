@@ -7,9 +7,13 @@ import {
 } from "react-icons/fi";
 
 const socials = [
-  { icon: FiGithub, href: "https://github.com", label: "GitHub" },
-  { icon: FiLinkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: FiMail, href: "mailto:rayana@email.com", label: "Email" },
+  { icon: FiGithub, href: "https://github.com/rayanaaajs", label: "GitHub" },
+  {
+    icon: FiLinkedin,
+    href: "https://www.linkedin.com/in/rayana-jaka-surya",
+    label: "LinkedIn",
+  },
+  { icon: FiMail, href: "rayanajakasurya54@gmail.com", label: "Email" },
 ];
 
 export default function Footer() {
@@ -64,7 +68,8 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-text-muted text-sm flex items-center gap-1">
-            <span className=""></span>© {new Date().getFullYear()} Rayana Jaka Surya
+            <span className=""></span>© {new Date().getFullYear()} Rayana Jaka
+            Surya
           </p>
 
           {/* Back to Top */}
